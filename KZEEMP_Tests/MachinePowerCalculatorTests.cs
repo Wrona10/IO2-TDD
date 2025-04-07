@@ -68,9 +68,9 @@ namespace KZEEMP_Tests
             double result3 = machinePowerCalculator.GetPowerConsumption("MillingMachine", 10, false);
 
             //Assert
-            Assert.Equal(5, result1);
-            Assert.Equal(10, result2);
-            Assert.Equal(50, result3);
+            Assert.Equal(5*1, result1);
+            Assert.Equal(5*4, result2);
+            Assert.Equal(5*10, result3);
         }
 
         [Fact]
