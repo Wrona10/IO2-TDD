@@ -10,6 +10,11 @@ namespace KZEEMP
     {
         public double GetPowerConsumption(string machineType, int duration, bool isEnergySaving)
         {
+            if(machineType == "" || machineType is null)
+            {
+                throw new ArgumentException("Machine type cannot be empty.");
+            }
+
             throw new NotImplementedException();
         }
     }
