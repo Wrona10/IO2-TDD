@@ -73,6 +73,7 @@ namespace KZEEMP_Tests
             Assert.Equal(50, result3);
         }
 
+        [Fact]
         public void MachineType_isPress_ShouldReturn5Duration()
         {
             //Arrange
@@ -89,6 +90,7 @@ namespace KZEEMP_Tests
             Assert.Equal(7.2*10, result3);
         }
 
+        [Fact]
         public void MachineType_isUnknown_ShouldThrowException()
         {
             //Arrange
