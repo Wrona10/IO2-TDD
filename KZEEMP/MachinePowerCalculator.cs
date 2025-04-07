@@ -27,8 +27,11 @@ namespace KZEEMP
                 case "MillingMachine":
                     powerConsumption = 5 * duration;
                     break;
+                case "Press":
+                    powerConsumption = 7.2 * duration;
+                    break;
                 default:
-                    throw new ArgumentException("Invalid machine type");
+                    throw new ArgumentException("Invalid machine type.");
             }
 
             throw new NotImplementedException();
