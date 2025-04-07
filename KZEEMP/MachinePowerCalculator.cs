@@ -15,6 +15,11 @@ namespace KZEEMP
                 throw new ArgumentException("Machine type cannot be empty.");
             }
 
+            if(duration <= 0)
+            {
+                throw new ArgumentException("Duration must be greater than zero.");
+            }
+
             throw new NotImplementedException();
         }
     }
