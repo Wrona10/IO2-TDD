@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZEEMP", "KZEEMP\KZEEMP.csproj", "{008FCEDD-9022-4DA7-9CE0-B7FB1D206B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZEEMP_Tests", "KZEEMP_Tests\KZEEMP_Tests.csproj", "{4F8FF560-2C23-41E6-9A66-51A31DD7226C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{008FCEDD-9022-4DA7-9CE0-B7FB1D206B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008FCEDD-9022-4DA7-9CE0-B7FB1D206B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008FCEDD-9022-4DA7-9CE0-B7FB1D206B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008FCEDD-9022-4DA7-9CE0-B7FB1D206B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8FF560-2C23-41E6-9A66-51A31DD7226C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8FF560-2C23-41E6-9A66-51A31DD7226C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8FF560-2C23-41E6-9A66-51A31DD7226C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8FF560-2C23-41E6-9A66-51A31DD7226C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
