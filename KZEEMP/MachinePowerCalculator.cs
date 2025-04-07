@@ -34,7 +34,7 @@ namespace KZEEMP
                     throw new ArgumentException("Invalid machine type.");
             }
 
-            throw new NotImplementedException();
+            return powerConsumption;
         }
     }
 }
