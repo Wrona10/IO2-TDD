@@ -20,6 +20,17 @@ namespace KZEEMP
                 throw new ArgumentException("Duration must be greater than zero.");
             }
 
+            double powerConsumption = 0;
+
+            switch (machineType)
+            {
+                case "MillingMachine":
+                    powerConsumption = 5 * duration;
+                    break;
+                default:
+                    throw new ArgumentException("Invalid machine type");
+            }
+
             throw new NotImplementedException();
         }
     }
