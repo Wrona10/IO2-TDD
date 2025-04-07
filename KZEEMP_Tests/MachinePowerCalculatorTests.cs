@@ -55,5 +55,22 @@ namespace KZEEMP_Tests
             //Assert
             Assert.Equal("Duration must be greater than zero.", exception.Message);
         }
+
+        [Fact]
+        public void MachineType_isMillingMachine_ShouldReturn5Duration()
+        {
+            //Arrange
+            MachinePowerCalculator machinePowerCalculator = new MachinePowerCalculator();
+
+            //Act
+            double result1 = machinePowerCalculator.GetPowerConsumption("MillingMachine", 1, false);
+            double result2 = machinePowerCalculator.GetPowerConsumption("MillingMachine", 4, false);
+            double result3 = machinePowerCalculator.GetPowerConsumption("MillingMachine", 10, false);
+
+            //Assert
+            Assert.Equal(5, result1);
+            Assert.Equal(10, result2);
+            Assert.Equal(50, result3);
+        }
     }
 }
